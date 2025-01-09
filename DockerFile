@@ -1,0 +1,5 @@
+# Menggunakan NGINX sebagai image dasar
+FROM nginx:latest
+
+# Salin file index.html ke dalam direktori default NGINX
+COPY index.html /usr/share/nginx/html/
